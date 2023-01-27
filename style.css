@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+    font-family: 'Montserrat';
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    max-width: 600px;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+
+}
